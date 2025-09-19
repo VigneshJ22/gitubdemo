@@ -1,0 +1,13 @@
+name : my snd workflow
+
+on : push
+
+jobs :
+     first_job :
+          runs-on: ubuntu-latest
+          steps:
+           - name: Welcome messgess
+             run : echo "Login to the githubs"
+
+           - name: List of my files
+             run : ls
