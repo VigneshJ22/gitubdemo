@@ -1,6 +1,7 @@
 name : my snd workflow
 
-on : push
+on : 
+  push
 
 jobs :
      first_job :
