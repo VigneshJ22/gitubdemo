@@ -10,7 +10,8 @@ jobs :
            - name: gitub ceckout
              uses: actions/checkout@v5
            - name: Welcome messgess
-             run : echo "Login to the githubs"
+             run : 
+               echo "Login to the githubs"
+               ls-la
 
-           - name: List of my files
-             run : ls
+          
